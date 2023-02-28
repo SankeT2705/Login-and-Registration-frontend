@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,300;1,200&family=Heebo:wght@100&family=Martian+Mono&display=swap');
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.card::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    font-family: 'Chivo Mono', monospace;
+}
+
+.navbar a:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    height: 100vh;
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-custom {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
